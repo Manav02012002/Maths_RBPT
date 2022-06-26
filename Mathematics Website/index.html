@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/extra/e3.jpg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Maths_RPBT</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Mission</a></li>
+				<li><a href="#team_section">Team</a></li>
+			</ul>
+		
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Let's Learn about Sequences!</h5>
+				<div class="play">
+					<img src="images/icon/play.png" alt="play"><span><a href="https://www.youtube.com/watch?v=9zaH6rKZXjg" target="_blank">Watch Now</a></span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Topics to learn!!</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="subjects/Sequences.pdf"><img src="images/courses/book.png">Sequences</a></div>
+		<div class="det"><a href="subjects/Series1trial.pdf"><img src="images/courses/d1.png">Series</a></div>
+		</div></center>
+		<div class="cbox">
+		
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">In-Brief</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What are Sequences?</h2>
+					<p>A sequence is a word meaning "a set of related events, movements or items that follow each other in a particular order".
+
+						It is used in mathematics and other disciplines. In ordinary use, it means a series of events, one following another. In maths, a sequence is made up of several things put together, one after the other. The order that the things are in matters. For example, both (Blue, Red, Yellow) and (Yellow, Blue, Red) are sequences, but they are not the same. Sequences made up of numbers are also called progressions.
+						
+						There are two kinds of sequences. One kind is finite sequences, which have an end. For example, (1, 2, 3, 4, 5) is a finite sequence. The other kind is infinite sequences, which means that they keep going and never end. An example of a sequence that is infinite is the sequence of all even numbers, bigger than 0. This sequence never ends: it starts with 2, 4, 6, and so on, and one can always keep on naming even numbers.
+						
+						If a sequence is finite, it is easy to say what it is: one can simply write down all the things in the sequence. This does not work for an infinite sequence. So another way to write down a sequence is to write a rule for finding the thing in any place one wants. The rule should tell us how to get the thing in the n-th place, where n can be any natural number. This means that a sequence is really a special kind of function with natural numbers as its domain. We sometimes write a sequence as (a_n), where a_n stands for the n-th term of the sequence.
+						
+						For example, the rule could be that the thing in the n-th place is the number 2×n (2 times n). This tells us what the whole sequence is, even though it never ends. The first number is 2×1, which is 2. The second number is 2×2, or 4. If we want to know what the 100-th number is, we can simply calculate 2×100 and get 200. No matter which thing in the sequence we want, the rule can tell us what it is.</p>
+						<h2>What is a Series?</h2>
+						<p>A series is the sum of all the terms of a sequence.</p>	
+				</div>
+		</div>
+		
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Mission</p></center>
+		<div class="content">
+			<p>
+				Number Theory in General and Sequences and Series in particular plays a very important role in our daily lives. We know this line is cliched for all math topics but one can't hide form the truth. Sequences and Series is taught to pupils only in high school and college and that too only in the Scientific Disciplines, which means that those students who chose Commerce and Humanities don't get an opprtunity to learn such an important part of Mathematics. This Website is for students who know basic mathematics but haven't learnt number theory. We all know that the sight of a big fat maths textbook is off putting and sicourages potential learners, so the solution to that problem has to be a 21st Century one! Students today are extremely tech savy and prefer online learning to more conventional methods. This Website is the perect stepping stone for such a beginner attempting to familiarise him/herself with the concepts of Progressions. 			</p>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">The Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/LinkedinProfile2.jpeg"></center>
+				<center><div class="card-title">Manav Madan Rawal</div>
+				<div id="detail">
+		
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/manav-rawal-06452b112/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/ShashankArunkumar.jpeg"></center>
+				<center><div class="card-title">Shashank Arunkumar</div>
+				<div id="detail">
+					
+					<div class="duty"></div>
+					<a href="https://www.linkedin.com/in/shashankarunkumar/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+
+
+
+		</div>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/Manav Shrama1.jpeg"></center>
+				<center><div class="card-title">Manav Sharma</div>
+				<div id="detail">
+		
+					<div class="duty"></div>
+					<a href="https://www.instagram.com/manav.402/" target="_blank"><button class="btn-roshan">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/Juanita1.jpeg"></center>
+				<center><div class="card-title">Juanita Earlyn Andrew</div>
+				<div id="detail">
+					
+					<div class="duty"></div>
+					<a href="https://www.instagram.com/juanichael/" target="_blank"><button class="btn-akhil">Follow +</button></a>
+				</div>
+				</center>
+
+
+
+		</div>
+		</div>
+		<center><p style="font-size: 50px; padding-top: 50px; padding-bottom: 30px; color: #580a02;">And Team</p></center>
+	</div>
+
+
+<!-- CONTACT US -->
+	
+<div>
+	<p></p>
+</div>
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback with us by contacting our creators through their linkedIn or Instagram pages.</p>
+		</div>
+	</div>
+
+
+<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #2764df); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">Mathematics RBPT - Sequences and Series </div></marquee>
+
+<!-- FOOTER -->
+
+
+</body>
+</html>
